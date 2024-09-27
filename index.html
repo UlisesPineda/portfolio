@@ -3,11 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
     <title>Ulises Pineda || Fullstack Web Developer</title>
 </head>
 <body>
     <main>
-        <h1>Ulises Pineda || Fullstack Web Developer</h1>
+        <div class="section-gradient">
+            <svg xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                    </filter>
+                </defs>
+            </svg>
+            <div class="gradient-container">
+                <div class="gradient-one"></div>
+                <div class="gradient-two"></div>
+                <div class="gradient-three"></div>
+                <div class="gradient-four"></div>
+                <div class="gradient-five"></div>
+                <div class="gradient-six"></div>
+                <div class="gradient-seven"></div>
+                <div class="interactive"></div>
+            </div>
+        </div>
+        <header class="header-portfolio">
+            <div class="main-data-portfolio">
+                <h1>
+                    <span>Ulises Pineda</span>
+                    <br>
+                    <span class="text-colored">Fullstack Web Developer</span>
+                </h1>
+                <h2>
+                    Javascript developer specialized with
+                    <span class="text-colored">
+                        MERN
+                    </span>
+                    technology
+                </h2>
+                <nav class="link-rss-container">
+                    <a href="https://github.com/UlisesPineda", target="_blank", rel="noopener noreferrer nofollow" title="Stalk my code !!" class="icon-rss github">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ulisespinedam/", target="_blank", rel="noopener noreferrer nofollow" title="My profesional profile" class="icon-rss linkedin">
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <section class="main-info-portfolio">
+            <section class="about-info">
+                <h3>About Me</h3>
+                <p>Self-taught Web developer with studies in graphic design and a long career in the financial sector.</p>
+                <p><span class="text-colored">2018</span> I find my passion for web development, being SEO and Wordpress my first contact with the web world, HTML and CSS are my first meeting with web semantics.</p>
+                <p><span class="text-colored">2020</span> Knowing how to interact and modify websites leads me to the need of programming, I start learning JS in my free time.</p>
+                <p><span class="text-colored">2021</span> With React and Node I start fullstack development and my specialization in these technologies.</p>
+                <p><span class="text-colored">2022</span> I take the final step and decide to end my activity in the financial sector to dedicate myself fully to web development as a freelancer.</p>
+            </section>
+            <section class="work-info">
+                <h3>My recent works</h3>
+                <article class="card-container">
+                    <div class="data-card-container">
+                        <a href="https://ulisespineda.github.io/conexiapoint/", target="_blank", rel="noopener noreferrer" title="Take a look on my job" class="title-link-card hover-title">
+                            CRM Conexia Point
+                            <div class="img-card-container">
+                                <img src="/img/conexiapoint.png", alt="Conexia Point website">
+                            </div>
+                        </a>
+                        <p>CRM solution for storing and interacting with customers and contacts.</p>
+                        <em class="hover-title">Main webapp features:</em>
+                        <ul>
+                            <li>AI Assistant</li>
+                            <li>Protected routes</li>
+                            <li>New user registration</li>
+                            <li>Encrypted passwords</li>
+                            <li>Secure password recovery</li>
+                            <li>Logout due to inactivity</li>
+                            <li>Rest API</li>
+                            <li>User panel</li>
+                            <li>Administrator panel</li>
+                            <li>Dynamic URL's for each product</li>
+                            <li>Mongo DB for strings storage</li>
+                            <li>Firebase DB for multimedia storage</li>
+                        </ul>
+                        <div class="buttons-tech-container">
+                            <span class="button-tech">Gemini AI</span>
+                            <span class="button-tech">Ract</span>
+                            <span class="button-tech">React Router</span>
+                            <span class="button-tech">Redux</span>
+                            <span class="button-tech">Node</span>
+                            <span class="button-tech">Express</span>
+                            <span class="button-tech">JWT</span>
+                            <span class="button-tech">Bcrypt</span>
+                            <span class="button-tech">Nodemailer</span>
+                            <span class="button-tech">Axios</span>
+                            <span class="button-tech">Firebase</span>
+                            <span class="button-tech">Mongo DB</span>
+                        </div>
+                    </div>
+                    <div class="data-card-container">
+                        <a href="https://ulisespineda.github.io/elmerkadeo/", target="_blank", rel="noopener noreferrer" title="Take a look on my job" class="title-link-card hover-title">
+                            El Merkadeo
+                            <div class="img-card-container">
+                                <img src="/img/elmerkadeo.png", alt="El merkadeo website">
+                            </div>
+                        </a>
+                        <p>E-commerce solution that offers a complete administration system for both the user and the platform administrator.</p>
+                        <em class="hover-title">Main webapp features:</em>
+                        <ul>
+                            <li>Protected routes</li>
+                            <li>New user registration</li>
+                            <li>Encrypted passwords</li>
+                            <li>Secure password recovery</li>
+                            <li>Logout due to inactivity</li>
+                            <li>Rest API</li>
+                            <li>Shopping cart</li>
+                            <li>Payment gateway with Stripe</li>
+                            <li>User panel</li>
+                            <li>Purchase history</li>
+                            <li>Administrator panel</li>
+                            <li>Editing and creating products</li>
+                            <li>Editing and creating categories</li>
+                            <li>Editing and creating promotions</li>
+                            <li>Dynamic URL's for each product</li>
+                            <li>Mongo DB for strings storage</li>
+                            <li>Firebase DB for multimedia storage</li>
+                        </ul>
+                        <div class="buttons-tech-container">
+                            <span class="button-tech">Ract</span>
+                            <span class="button-tech">React Router</span>
+                            <span class="button-tech">Redux</span>
+                            <span class="button-tech">Node</span>
+                            <span class="button-tech">Express</span>
+                            <span class="button-tech">JWT</span>
+                            <span class="button-tech">Bcrypt</span>
+                            <span class="button-tech">Nodemailer</span>
+                            <span class="button-tech">Axios</span>
+                            <span class="button-tech">Firebase</span>
+                            <span class="button-tech">Mongo DB</span>
+                        </div>
+                    </div>
+                    <div class="data-card-container">
+                        <a href="https://ulisespineda.github.io/CredMex/", target="_blank", rel="noopener noreferrer" title="Take a look on my job" class="title-link-card hover-title">
+                            Crédito PyME México
+                            <div class="img-card-container">
+                                <img src="/img/credmex.png", alt="Crédito PyME México website">
+                            </div>
+                        </a>
+                        <p>Landing page created to support the commercial growth of a financial broker.</p>
+                        <em class="hover-title">Main SPA features:</em>
+                        <ul>
+                            <li>Contact Form</li>
+                            <li>Customized design</li>
+                        </ul>
+                        <div class="buttons-tech-container">
+                            <span class="button-tech">Ract</span>
+                            <span class="button-tech">React Router</span>
+                            <span class="button-tech">Node</span>
+                            <span class="button-tech">Express</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="about-tech-areas">
+                <h3>Areas of interest:</h3>
+                <p>My current specialty is based on the Javascript environment, in the MERN technology, however, the following technologies are also within my interest and are part of my short term learning stack:</p>
+                <div class="buttons-tech-container">
+                    <span class="button-tech">AWS</span>
+                    <span class="button-tech">Python</span>
+                    <span class="button-tech">SQL</span>
+                    <span class="button-tech">React Native</span>
+                </div>
+                <h3>In learning process:</h3>
+                <p>As part of my training and specialization, I am currently developing my knowledge of the following technologies:</p>
+                <div class="buttons-tech-container">
+                    <span class="button-tech">Next.js</span>
+                    <span class="button-tech">Typescript</span>
+                    <span class="button-tech">Tailwind</span>
+                </div>
+                <h3>Additional knowledge:</h3>
+                <p>As part of my career in web development I have acquired the following knowledge:</p>
+                <div class="buttons-tech-container">
+                    <span class="button-tech">Wordpress</span>
+                    <span class="button-tech">SEO</span>
+                </div>
+            </section>
+            <section class="contact-form">
+                <h3>Contact</h3>
+                <div class="data-contact">
+                    <a href="mailto:upinedam@yahoo.com.mx", target="_blank", rel="noopener noreferrer nofollow" title="Send me email" class="icon-rss email"></a>
+                    <span class="text-contact">upinedam@yahoo.com.mx</span>
+                </div>
+            </section>
+        </section>
     </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
