@@ -257,10 +257,10 @@ svg {
     transition: opacity .4s ease-in-out;
 }
 .github {
-    background-image: url(/img/github.png);
+    background-image: url(img/github.png);
 }
 .linkedin {
-    background-image: url(/img/linkedin.png);
+    background-image: url(img/linkedin.png);
 }
 @media ( max-width: 480px ) {
     .header-portfolio {
@@ -460,7 +460,7 @@ ul li {
     gap: 10px;
 }
 .email {
-    background-image: url(/img/email.png);
+    background-image: url(img/email.png);
 }
 @media ( max-width: 480px ) {
     .contact-form h3 {
